@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+pip-log.txt
+
+# Large ML models
+model_best.pt
+
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+Dockerfile
+README.md
+.dockerignore
